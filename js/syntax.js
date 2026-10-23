@@ -17,3 +17,9 @@ let prenomEleve = "Alexis";
 let ageEleve = 17;
 console.log("Je m'appelle " + prenomEleve + " " + nomEleve + " et j'ai " + ageEleve + " ans");
 
+function NomPrenom() {
+    let prenom = prompt("Quel est ton prenom?")
+    let nom = prompt("Quel est ton nom?")
+    alert("Bonjour " + prenom + " " + nom)
+}
+
