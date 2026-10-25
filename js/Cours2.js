@@ -67,3 +67,9 @@ const estMajeur = (age) => {
 }
 estMajeur(19)
 
+function NomPrenom() {
+    let prenom = prompt("Quel est ton prenom?")
+    let nom = prompt("Quel est ton nom?")
+    alert("Bonjour " + prenom + " " + nom)
+}
+
